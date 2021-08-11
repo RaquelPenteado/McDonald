@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo{
+    width: 125px;
+    margin-left: 130px;
+    margin-top: 15px;
+}
+
+.menu{
+    margin-top: 60px;
+    margin-right: 260px;
+    font-size: 18px;
+}
+
+.menu a{
+    margin-right: 10px;
+    color: #292929;
+
+}
+
+.menu button{
+    padding: 8px 12px 22px;
+    font-size: 17px;
+    background-color: white;
+    transition: all .3s ease-in-out;
+}
+
+.menu button:hover{
+    border-bottom: 3px solid #ffc82d;
+    font-size: 18.5px;
+}
+
+.buttons{
+    display: flex;
+    margin-top: -130px;
+    margin-left: 1105px;
+    outline: none;
+    
+}
+
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover{
+    filter: brightness(1.1);
+}
+
+.button2{
+    padding: 15px 20px;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: #ffc82d;
+    color: #000000B3;
+}
+
+.fundo{
+    margin-top: 80px;
+    width: 1340px;
+}
+
+section h1{
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 250px;
+    color: white;
+    font-size: 54px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+section p{
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 413px;
+    color: white;
+}
+
+section button{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 460px;
+    outline: none;
+    padding: 14px 30px;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: #FFBC0D;
+    color: #000000B3;
+}
